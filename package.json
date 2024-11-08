@@ -1,5 +1,5 @@
 {
-    "name": "@ashishdotme/npm-library-starter",
+    "name": "@ashishdotme/utils",
     "version": "1.0.0",
     "scripts": {
         "start": "tsc --watch",
@@ -38,11 +38,13 @@
     ],
     "license": "MIT",
     "main": "dist/index.js",
-
     "repository": {
         "type": "git",
         "url": "https://github.com/ashishdotme/npm-library-starter"
     },
     "type": "module",
-    "types": "dist/types/index.d.ts"
+    "types": "dist/types/index.d.ts",
+    "dependencies": {
+        "date-fns": "^4.1.0"
+    }
 }
