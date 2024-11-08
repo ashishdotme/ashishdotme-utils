@@ -1,4 +1,4 @@
-import { format, parseISO } from "date-fns"
+import {format, parseISO} from "date-fns"
 
 const formatDate = (date: string): string => {
     const isoDate = parseISO(date)
@@ -14,4 +14,4 @@ function truncate(str: string, len: number) {
     return str.trim()
 }
 
-export { formatDate, truncate }
+export {formatDate, truncate}
