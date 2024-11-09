@@ -19,9 +19,9 @@ jobs:
             - name: "Install"
               run: npm ci
             - name: "Lint"
-              run: npm run lint
+              run: npm run lint:fix
             - name: "Format"
-              run: npm run format
+              run: npm run format:fix
             - name: "Publish"
               run: npm publish --access public
               env:
